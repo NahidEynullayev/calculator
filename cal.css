@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+}
+
+.calculator {
+  width: 375px;
+  height: 400px;
+  background-color: #f1f3f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.calculator.active {
+  width: 375px;
+  height: 400px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.display {
+  width: 335px;
+  height: 17.4%;
+  box-shadow: 5px 5px 10px 0px #3754aa1a;
+
+  box-shadow: -5px -5px 10px 0px #ffffff;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.display-value {
+  width: 93.5%;
+  height: 87.94%;
+  border: 2px solid #1565c0;
+  border-radius: 10px;
+}
+
+.keyboard {
+  width: 335px;
+  height: 59.1%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.size {
+  width: 23%;
+  height: 100%;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: "Orbitron", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  box-shadow: 5px 5px 10px 0px #3754aa1a;
+
+  box-shadow: -5px -5px 10px 0px #ffffff;
+  border: white;
+}
+
+.zero {
+  width: 49%;
+  height: 100%;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: "Orbitron", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  box-shadow: 5px 5px 10px 0px #3754aa1a;
+
+  box-shadow: -5px -5px 10px 0px #ffffff;
+  border: white;
+}
+
+.button-contain {
+  width: 100%;
+  height: 18%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.border {
+  border: 1px solid #1565c0;
+  color: #1565c0;
+  font-family: "Orbitron", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  box-shadow: 5px 5px 10px 0px #3754aa1a;
+
+  box-shadow: -5px -5px 10px 0px #ffffff;
+}
+
+input::placeholder {
+  font-size: 36px;
+  font-weight: 400;
+  font-family: "Digital Numbers", sans-serif;
+  opacity: 20%;
+  text-align: center;
+  position: absolute;
+  bottom: 10%;
+  left: 25%;
+}
+
+img {
+  position: relative;
+  left: 40%;
+  cursor: pointer;
+}
+
+/* ! */

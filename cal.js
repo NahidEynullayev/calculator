@@ -21,6 +21,7 @@ const pointButton = document.querySelector(`.point`);
 
 const modeButton = document.querySelector(`.dark`);
 const calculatorDevice = document.querySelector(`.calculator`);
+const darker = document.querySelector(`.darker`);
 
 // oneButton.addEventListener("click", () => {
 //   displayValue.value += oneButton.innerHTML;
@@ -73,4 +74,8 @@ clrButton.addEventListener("click", () => {
 
 modeButton.addEventListener("click", () => {
   calculatorDevice.classList.toggle("active");
+});
+
+darker.addEventListener("click", () => {
+  calculatorDevice.classList.toggle("activeCalculator");
 });
